@@ -1,0 +1,20 @@
+.MainContent{
+    /* display: flex; */
+    margin: 150px 50px 900px;
+    /* justify-content: center; */
+    /* background-color: white; */
+}
+
+#ProblemsContent{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto 50px;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* margin: 300px 50px 900px; */
+    /* justify-content: center; */
+
+}

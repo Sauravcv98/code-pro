@@ -1,0 +1,95 @@
+header{
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-90deg,#02203c,#001528);
+}
+
+#topContent{
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#logoContent{
+    width: 290px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 0 10px 0;
+    justify-content: center;
+    
+}
+
+#logo>svg{
+    height: 40px;
+    margin: 0 15px 0 0;
+}
+
+#logo>h1{
+    /* font-family: Jura,Helvetica,Arial,sans-serif; */
+    font-size: 35px;
+    line-height: 1;
+    margin: 0;
+}
+
+#contentLogo{
+    color: #8d96eb;
+    /* font-family: Jura,Helvetica,Arial,sans-serif; */
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.gap{
+    flex: 1 1 auto;
+    max-width: 150px;
+}
+
+#nav{
+    display: flex;
+    margin: 10px 55px 0;
+    align-items: center;
+}
+#nav>div{
+    background-color: transparent;
+}
+#nav>div>button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+#account{
+    min-width: 290px;
+    flex: 0 1 auto;
+    font-size: 20px;
+    margin: 10px 5px 0 0;
+    color: white;
+}
+
+
+#bottomContent{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#bottomContent>h1{
+    font-size: 38px;
+    margin-bottom: 40px;
+
+}
+
+#bottomContent>p{
+    font-size: 18px;
+}
